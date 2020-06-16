@@ -1,0 +1,75 @@
+body{
+    margin-top: 120px !important;
+    background: #000000;
+    color: gray;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Dancing Script', cursive; */
+}
+
+p{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar-collapse {
+    justify-content: flex-end !important;
+}
+
+.navbar-default{
+    background: #000000;
+    border: 0px;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.showcase-right h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.showcase-left span{
+    font-style: italic;
+}
+
+.showcase img{
+    width: 60%;
+    margin-left: 60px;
+    margin-right: 40px;
+    margin: 0px auto;
+}
+
+#showcase .showcase-right{
+    margin-top: 5.625em;
+}
+
+.span{
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
+}
+
+.bg-dark {
+    background-color: #000000!important;
+}
+
+
+@media  (max-width : 480px) {
+
+    .row{
+        margin: 10px auto !important;
+    }
+
+    .btn{
+        margin-bottom: 10px;
+    }
+
+}
